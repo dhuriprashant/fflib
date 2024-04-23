@@ -35,7 +35,7 @@
       "package": "at4dx",
       "versionName": "ver 1.0",
       "versionNumber": "1.0.0.NEXT",
-      "default": true,
+      "default": false,
       "versionDescription": "",
       "dependencies": [
         {
@@ -53,6 +53,14 @@
       ]
     },
     {
+      "path": "sfdx-source/core",
+      "default": true,
+      "package": "core",
+      "versionName": "ver 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "versionDescription": ""
+    },
+    {
       "path": "sfdx-source/my-app",
       "default": false
     }
@@ -68,6 +76,8 @@
     "force-di": "0HoHn000000oMAvKAM",
     "force-di@1.0.0-1": "04tHn000001RrLVIA0",
     "at4dx": "0HoHn000000oMB0KAM",
-    "at4dx@1.0.0-1": "04tHn000001RrLaIAK"
+    "at4dx@1.0.0-1": "04tHn000001RrLaIAK",
+    "core": "0HoHn000000oMB5KAM",
+    "core@1.0.0-1": "04tHn000001RrLfIAK"
   }
 }
